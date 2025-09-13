@@ -25,7 +25,7 @@ const ExamplePage = () => {
     },
     {
       image: "/sachin.jpg",
-      title: "Rahul Mehra",
+      title: "Sachin",
       subtitle: "SEO Expert & Digital Marketer Driving Growth.",
       handle: "@",
       borderColor: "#C6A7F2",

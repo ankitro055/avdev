@@ -191,7 +191,7 @@ const HeroSection = () => {
       </div>
     </section>
     <BenefitsSection/>
-    <Founders/>
+    {/* <Founders/> */}
         </>
   );
 };

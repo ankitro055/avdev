@@ -6,13 +6,22 @@ import ChromaGrid from "@/components/hooks/hoverteam";
 const ExamplePage = () => {
   const items = [
     {
-      image: "/img.jpg",
+      image: "/me.jpg",
       title: "Ankit Singh",
       subtitle: "Full Stack Developer",
       handle: "ankitroy5575@gmail.com",
       borderColor: "#B272F2",
       gradient: "linear-gradient(145deg, #6B4A8C, #361259)",
-      url: "https://github.com/sarahjohnson",
+      url: "https://www.linkedin.com/in/ankit5575/",
+    },
+    {
+      image: "/sr1.png",
+      title: "Sonu Rajput",
+      subtitle: "Full Stack Developer",
+      handle: "sonurajput10500@gmail.com",
+      borderColor: "#B272F2",
+      gradient: "linear-gradient(145deg, #6B4A8C, #361259)",
+      url: "sonurajput10500@gmail.com",
     },
     {
       image: "/nobo.jpg",
@@ -51,15 +60,15 @@ const ExamplePage = () => {
       url: "https://linkedin.com/in/mikechen",
     },
     
-    {
-      image: "/sonu.jpg",
-      title: "Sonu Gupta",
-      subtitle: "Senior Vidoe Editor",
-      handle: "@priyav",
-      borderColor: "#B272F2",
-      gradient: "linear-gradient(180deg, #6B4A8C, #361259)",
-      url: "https://dribbble.com/priyav",
-    },
+    // {
+    //   image: "/sonu.jpg",
+    //   title: "Sonu Gupta",
+    //   subtitle: "Senior Vidoe Editor",
+    //   handle: "@priyav",
+    //   borderColor: "#B272F2",
+    //   gradient: "linear-gradient(180deg, #6B4A8C, #361259)",
+    //   url: "https://dribbble.com/priyav",
+    // },
     
   ];
 

@@ -92,6 +92,14 @@ const ProjectsShowcase = () => {
   icon: <IconCloud className="h-4 w-4 text-blue-600" />,
 }
 ,
+{
+  title: "Blast Feel the FreshNess",
+  description: "Full-featured online store with payment integration.",
+  tags: ["Next.js", "Node.js", "MongoDB"],
+  gradient: "from-[#361259] via-[#6B4A8C] to-[#B272F2]",
+  image: "/blast.png",
+  link: "https://www.letblastbevaragesandcompany.in/",
+},
       {
   title: "Community Platform",
   description:

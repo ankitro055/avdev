@@ -5,8 +5,8 @@ import { motion } from 'framer-motion';
 import Link from 'next/link';
 
 export default function Footer() {
-  const phoneNumber = '9718659236';
-  const whatsappNumber = '9718659236';
+  const phoneNumber = '+9718659236';
+  const whatsappNumber = '+91 9718659236';
   const email = 'ankitroy5575@gmail.com';
   const address = 'Delhi, India (Worldwide Services)';
 
@@ -111,12 +111,12 @@ export default function Footer() {
               ))}
             </div>
           </motion.div>
-
+          {/* Portfolio', 'Blog', 'Contact */}
           {/* Quick Links */}
           <motion.div variants={itemVariants} className="space-y-6">
             <h3 className="text-xl font-semibold text-[#1a0a30]">Quick Links</h3>
             <ul className="space-y-3">
-              {['Home', 'About', 'Services', 'Portfolio', 'Blog', 'Contact'].map((item) => (
+              {['Home', 'About', 'Services'].map((item) => (
                 <motion.li 
                   key={item}
                   whileHover={{ x: 5 }}

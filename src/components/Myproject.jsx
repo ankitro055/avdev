@@ -55,6 +55,7 @@ const projects = [
     link: "https://github.com/yourusername/ecommerce",
   },
   
+  
 ];
 
 export function AnimatedPinDemo() {

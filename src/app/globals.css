@@ -170,3 +170,33 @@ html {
     }
   }
 }
+
+
+/* add the new  */
+
+.blob {
+  position: absolute;
+  width: 110px;
+  height: 110px;
+  border-radius: 9999px;
+  opacity: 0.55;
+  filter: blur(50px);
+  animation: floatBlob 5s ease-in-out infinite alternate;
+}
+
+@keyframes floatBlob {
+  from { transform: translateY(0) scale(1); }
+  to   { transform: translateY(-25px) scale(1.10); }
+}
+
+.btn-primary {
+  @apply px-7 py-3 rounded-lg bg-[#B272F2] text-white font-semibold shadow-md;
+}
+
+.btn-outline {
+  @apply px-7 py-3 rounded-lg border-2 border-[#B272F2] text-[#D6AEFE] font-semibold;
+}
+
+.stat-card { @apply p-4 rounded-xl bg-[#361259]/50 backdrop-blur-sm border border-[#6B4A8C] text-center; }
+.stat-value { @apply text-2xl md:text-3xl font-bold text-[#B272F2]; }
+.stat-label { @apply text-sm md:text-base text-[#D6AEFE]; }

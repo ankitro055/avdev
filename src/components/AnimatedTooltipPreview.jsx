@@ -7,14 +7,14 @@ const people = [
     name: "Ravindra Kumar",
     designation: "Director Of Max Education",
     image:
-      "/max.jpeg",
+      "https://res.cloudinary.com/dcbgle07k/image/upload/v1762613604/max_wnxlal.jpg ",
   },
   {
     id: 2,
     name: "Azeet Yadav",
     designation: "Optometrist/Founder",
     image:
-    '/eye.jpeg'
+    'https://res.cloudinary.com/dcbgle07k/image/upload/v1762613461/eye_k4bi4b.jpg'
     },
   {
     id: 3,
@@ -28,21 +28,21 @@ const people = [
     name: "Pinki Singh",
     designation: "Director Of Ujjwal Welfare Trust",
     image:
-    '/ngo.jpg'
+    'https://res.cloudinary.com/dcbgle07k/image/upload/v1762613254/ngo_wz3top.jpg'
    },
   {
     id: 5,
     name: "Manish",
     designation: "Soap Developer",
     image:
-    '/manish.jpg'
-   },
+    'https://res.cloudinary.com/dcbgle07k/image/upload/v1762593662/manish_esavu4.jpg'
+    },
   {
     id: 6,
     name: "Anil Updhaya",
     designation: "Director Of ARC Computer Institute",
     image:
-    '/anilsir.jpeg'
+    'https://res.cloudinary.com/dcbgle07k/image/upload/v1762593563/anilsir_budotr.jpg'
    },
 ];
 

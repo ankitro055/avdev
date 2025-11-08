@@ -24,9 +24,9 @@ export const metadata = {
     google: "ZE33IAsG5H7ouzUXdWnwUVBvYwbYmMplNoCivfuz5CQ"
   },
   icons: {
-    icon: "/logo.png",
-    shortcut: "/logo.png",
-    apple: "/apple-touch-icon.png",
+    icon: "/myLogo.png",
+    shortcut: "/myLogo.png",
+    apple: "/myLogo.png",
   },
   manifest: "/manifest.json",
   openGraph: {
@@ -48,7 +48,7 @@ export const metadata = {
     card: "summary_large_image",
     title: "AV Development | Best Software  Company in Delhi",
     description: "Delhi's trusted website and Android App development team offering affordable web solutions with free domain+hosting.",
-    images: ["/logo.png"],
+    images: ["myLogo.png"],
     site: "@avdevelopment",
   },
 };
@@ -71,7 +71,7 @@ export default function RootLayout({ children }) {
     '@type': 'WebDesignCompany',
     name: 'AV Development',
     url: 'https://www.avdevelopment.in',
-    logo: 'https://www.avdevelopment.in/logo.png',
+    logo: 'https://www.avdevelopment.in/myLogo.png',
     description: 'Professional web design and development company based in Delhi, India',
     address: {
       '@type': 'PostalAddress',

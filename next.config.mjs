@@ -1,9 +1,14 @@
- /** @type {import('next').NextConfig} */
+ import bundleAnalyzer from '@next/bundle-analyzer';
+
+/** @type {import('next').NextConfig} */
 const nextConfig = {
-    images: {
-      domains: ['images.unsplash.com'],
-    },
-  };
-  
-  export default nextConfig;
-  
+  images: {
+    domains: ['images.unsplash.com'],
+  },
+};
+
+const withBundleAnalyzer = bundleAnalyzer({
+  enabled: process.env.ANALYZE === 'true',
+});
+
+export default withBundleAnalyzer(nextConfig);

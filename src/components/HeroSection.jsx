@@ -47,7 +47,7 @@ const HeroSection = () => {
     <header className="relative min-h-screen flex items-center justify-center bg-[#361259] px-6 overflow-hidden">
 
       {/* ✅ REAL LCP HERO BACKGROUND IMAGE (PRIORITY + HIGH FETCH) */}
-      <Image
+      {/* <Image
         src="/hero-bg.webp"
         alt="AV Development Hero Background"
         priority
@@ -55,7 +55,7 @@ const HeroSection = () => {
         width={1920}
         height={1080}
         className="absolute inset-0 w-full h-full object-cover opacity-35"
-      />
+      /> */}
 
       {/* ✅ GPU Efficient Blob Shapes */}
       <div className="absolute inset-0 pointer-events-none">
@@ -75,7 +75,7 @@ const HeroSection = () => {
         >
 
           {/* ✅ LCP HEADING — NO ANIMATION BEFORE PAINT */}
-          <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold text-white leading-tight mt-10">
+          <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold text-white leading-tight mt-20">
             We Build{" "}
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#B272F2] to-[#D6AEFE]">
               Digital

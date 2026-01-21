@@ -4,6 +4,7 @@ import React from "react";
 import Image from "next/image";
 import { AnimatedTooltip } from "@/components/ui/animated-tooltip";
 
+// const people = [ /* same data */ ];
 const people = [
   {
     id: 1,
@@ -49,8 +50,8 @@ const people = [
   },
 ];
 
-// Optimized Image Wrapper (No TypeScript Types Here)
-export function AvatarImage({ src, alt, priority }) {
+
+function AvatarImage({ src, alt, priority }) {
   return (
     <Image
       src={src}
@@ -64,8 +65,7 @@ export function AvatarImage({ src, alt, priority }) {
   );
 }
 
-export function AnimatedTooltipPreview() {
-  // First image is highest LCP relevance → load eagerly
+export default function AnimatedTooltipPreview() {
   const prioritizedPeople = people.map((p, index) => ({
     ...p,
     priority: index === 0,
@@ -76,7 +76,11 @@ export function AnimatedTooltipPreview() {
       <AnimatedTooltip
         items={prioritizedPeople}
         renderImage={(person) => (
-          <AvatarImage src={person.image} alt={person.name} priority={person.priority} />
+          <AvatarImage
+            src={person.image}
+            alt={person.name}
+            priority={person.priority}
+          />
         )}
       />
     </div>

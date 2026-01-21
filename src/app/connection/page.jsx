@@ -2,8 +2,7 @@
 
 import { cn } from "@/lib/utils";
 import React, { useState } from "react";
-import SplashCursor from "@/components/SplashCursor";
-import { motion } from "framer-motion";
+ import { motion } from "framer-motion";
 import Link from "next/link";
 
 export default function ContactHeroSection() {
@@ -111,9 +110,10 @@ export default function ContactHeroSection() {
       </div>
 
       {/* Splash Cursor - on top of all elements */}
-      <div className="absolute inset-0 z-40 pointer-events-none">
-        <SplashCursor />
-      </div>
+       
     </div>
   );
 }
+
+
+// this is new upadate 2026 

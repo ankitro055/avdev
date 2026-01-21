@@ -1,5 +1,4 @@
-import Link from "next/link";
-import Image from "next/image";
+
 import AnimatedHero from "./HeroSection.client";
 
 const stats = [
